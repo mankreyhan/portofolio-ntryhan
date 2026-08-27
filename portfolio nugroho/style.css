@@ -19,3 +19,12 @@ nav{display:flex;gap:3px}nav a{position:relative;color:#aaa9a2;font-size:.77rem;
 @media(max-width:900px){nav{position:absolute;top:64px;left:0;width:100%;display:none;flex-direction:column;padding:8px 15px;background:#10100f;border:1px solid #292926}nav.active{display:flex}.menu-button{display:block}.hero-container{grid-template-columns:1fr;gap:30px}.hero-visual{min-height:500px}.about-content,.experience-list,.education-list,.project,.certification-list,.skills-grid,.contact-content{margin-left:0}.section-header{grid-template-columns:55px 1fr}.experience-item,.education-item{grid-template-columns:1fr;gap:10px}.project{grid-template-columns:1fr}.project-image{border-right:0;border-bottom:1px solid #292926}.skills-grid{grid-template-columns:1fr;gap:50px}.certificate-note{margin-left:0}}
 @media(max-width:520px){.navbar{top:10px}.hero{padding-top:115px}.hero h1{font-size:3.45rem}.hero-description{line-height:1.8}.hero-buttons{flex-direction:column}.button{text-align:center}.section{padding:90px 0}.section-header{margin-bottom:40px}.hero-visual{min-height:460px}.id-rig{width:min(320px,82vw);height:490px}.project-content{padding:30px 24px}.project-footer{flex-direction:column}.certification-item{grid-template-columns:45px 1fr}.contact-links a{grid-template-columns:40px 1fr 20px}.footer-container{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.id-card{transition:none}}
+
+@media (max-width: 768px){
+    img {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        max-width: 100% !important;
+        }
+        }
