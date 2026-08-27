@@ -28,13 +28,3 @@ nav{display:flex;gap:3px}nav a{position:relative;color:#aaa9a2;font-size:.77rem;
         max-width: 100% !important;
         }
         }
-
-@media (max-width: 520px){
-    .hero-visual{
-        min-height:540px;
-
-    .id-card{
-        height:520px;
-        aspect-ratio:auto;
-    }
-}
