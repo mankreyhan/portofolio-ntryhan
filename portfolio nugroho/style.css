@@ -32,12 +32,6 @@ nav{display:flex;gap:3px}nav a{position:relative;color:#aaa9a2;font-size:.77rem;
 @media (max-width: 520px){
     .hero-visual{
         min-height:540px;
-    }
-
-    .id-rig{
-        width:min(320px,82vw);
-        height:540px;
-    }
 
     .id-card{
         height:520px;
