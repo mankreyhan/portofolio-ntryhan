@@ -30,6 +30,10 @@ nav{display:flex;gap:3px}nav a{position:relative;color:#aaa9a2;font-size:.77rem;
         }
 
 @media (max-width: 520px){
+    .id-photo{
+        aspect-ratio:4/4.3;
+    }
+
     .id-card-info > div:nth-child(2){
         display:none;
     }
